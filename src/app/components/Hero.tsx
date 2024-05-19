@@ -1,6 +1,5 @@
 import React from "react";
 import { name, heroDescription } from "../constants";
-import { motion } from "framer-motion"
 
 const Hero = () => {
   return (

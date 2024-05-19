@@ -1,4 +1,4 @@
-import CustomIconLogo from "./icons/customlogo";
+import CustomIconLogo from "./icons/customlogo.jsx";
 
 const Navbar = () => {
   return (

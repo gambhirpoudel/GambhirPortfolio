@@ -7,7 +7,7 @@ function Contact() {
       <div className="contact">
         <div className="flex items-center justify-center space-x-4 mb-2">
           <span className="text-green font-sfMono text-md">
-            0.4 What's Next ?
+            0.4 Whats Next ?
           </span>
         </div>
         <h2 className="font-calibre font-semibold text-[54.333px] text-lightest-slate whitespace-nowrap">

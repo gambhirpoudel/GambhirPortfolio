@@ -1,5 +1,8 @@
 import React from 'react';
-import {  IconGitHub, IconInstagram, IconLinkedin,IconTwitter } from './icons';
+import   IconGitHub from './icons/github.jsx';
+import   IconInstagram from './icons/instagram.jsx';
+import IconLinkedin from './icons/linkedin.jsx';
+import IconTwitter from './icons/twitter.jsx';
 
 const Sidebar: React.FC = () => {
   return (

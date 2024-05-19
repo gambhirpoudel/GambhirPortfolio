@@ -1,5 +1,7 @@
 import React from "react";
-import { IconExternal, IconFolder, IconGitHub } from "./icons";
+import IconExternal from "./icons/external.jsx";
+import IconFolder from "./icons/folder.jsx";
+import IconGitHub from "./icons/github.jsx";
 import { projects } from "../constants";
 
 function Work() {
