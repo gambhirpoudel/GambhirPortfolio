@@ -12,7 +12,7 @@ function Experiences() {
       <div className="flex items-center space-x-4 mb-10">
         <span className="text-green font-sfMono text-lg">02.</span>
         <h2 className="font-calibre font-semibold text-heading text-lightest-slate whitespace-nowrap">
-          Where I've Worked
+          Where Ive Worked
         </h2>
         <div className="w-[350px] h-px bg-lightest-navy"></div>
       </div>

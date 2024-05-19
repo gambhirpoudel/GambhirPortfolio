@@ -1,6 +1,5 @@
 import React from 'react';
-import { IconCustomLogo, IconGitHub, IconInstagram, IconLinkedin, IconLoader, IconLogo, IconTwitter } from './icons';
-import CustomIconLogo from './icons/customlogo';
+import {  IconGitHub, IconInstagram, IconLinkedin,IconTwitter } from './icons';
 
 const Sidebar: React.FC = () => {
   return (

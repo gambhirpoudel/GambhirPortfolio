@@ -10,7 +10,7 @@ export const skills = [
 ];
 export const heroDescription = "  Dedicated BCA student passionate about computer science andtechnology, excelling in academics with strong problem-solving skills. Effective team player with up-to-date tech knowledge, aspiring to specialize in software engineering or data science. Committed to excellence and eager to contribute to the tech industry's future."
 export const aboutParagraph1 = "Hello! My name is Gambhir,currently pursuing BCA. My journey in the digital realm began when I received my first computer in grade 8. It marked the inception of my exploration into various tools, including HTML, Excel, and MS-Word."
-export const aboutParagraph2 = "I enjoy creating things that live on the internet. My interest in web development started back in 2015 when I decided to try editing custom websites using HTML &amp; CSS! ,"
+export const aboutParagraph2 = "I enjoy creating things that live on the internet. My interest in web development started back in 2015 when I decided to try editing custom websites using HTML & CSS! ,"
 export const aboutParagraph3 ="   In 2020, amidst the COVID-19 pandemic, I delved into web development and digital marketing tools, driven by my curiosity about human behavior online and the influence of digital marketing on consumer decisions."
 export const aboutParagraph4 = "Currently, I am expanding my expertise through advanced training and certification while interning at <a href='https://www.linkedin.com/company/kutumba-tech-pvt-ltd/' class='text-greenn'>Kutumba Tech</a> for Flutter application development. This dual focus empowers me to excel in both frontend and backend development, driving my career forward in digital innovation."
 export const experiencesData = [

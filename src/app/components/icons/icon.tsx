@@ -1,14 +1,12 @@
 // icon.tsx
 import React from 'react';
 import {
-
   IconExternal,
   IconFolder,
   IconFork,
   IconGitHub,
   IconInstagram,
   IconLinkedin,
-
   IconStar,
   IconTwitter,
   IconCustomLogo,
@@ -23,7 +21,7 @@ const Icon: React.FC<IconProps> = ({ name }) => {
     case 'External':
       return <IconExternal />;
     case 'Folder':
-      return <IconFolder />;
+      return <IconFolder/>;
     case 'Fork':
       return <IconFork />;
     case 'GitHub':

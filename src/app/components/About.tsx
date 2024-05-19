@@ -1,15 +1,15 @@
 import React from "react";
 import aboutImage from "@/app/assets/about.jpg";
+import Image from "next/image";
 import {
   aboutParagraph1,
   aboutParagraph2,
   aboutParagraph3,
   aboutParagraph4,
-  skills
+  skills,
 } from "../constants";
 
 function About() {
-
   return (
     <section className="py-20 text-lightest-slate" id="about">
       <div className="ml-20">
@@ -41,10 +41,13 @@ function About() {
           </div>
           <div className="flex justify-center items-start mt-[0.5rem]">
             <div className="w-80 h-80 imgg">
-              <img
+              <Image
                 src={aboutImage.src}
                 alt="About me"
-                className="img w-full h-full object-cover"
+                layout="responsive"
+                width={700}
+                height={700} 
+                className="img  object-cover"
               />
             </div>
           </div>
