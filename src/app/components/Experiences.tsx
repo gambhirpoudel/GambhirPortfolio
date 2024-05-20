@@ -8,10 +8,10 @@ function Experiences() {
   const buttonHoverHeight = buttonHeight + 8;
 
   return (
-    <section className="ml-40 py-20 text-lightest-slate h-[80vh]" id="experiences">
+    <section className="sm:ml-40 ml-0 sm:py-20 py-10 text-lightest-slate lg:h-[80vh] h-screen" id="experiences">
       <div className="flex items-center space-x-4 mb-10">
-        <span className="text-green font-sfMono text-lg">02.</span>
-        <h2 className="font-calibre font-semibold text-heading text-lightest-slate whitespace-nowrap">
+        <span className="text-green font-sfMono sm:text-lg text-xs">02.</span>
+        <h2 className="font-calibre font-semibold sm:text-heading text-xxl text-lightest-slate whitespace-nowrap">
           Where I’ve Worked
         </h2>
         <div className="w-[350px] h-px bg-lightest-navy"></div>
@@ -19,7 +19,6 @@ function Experiences() {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/6 flex md:flex-col overflow-x-auto md:overflow-visible relative">
-            {/* Vertical line matching total height of all buttons */}
             <div
               className={`absolute top-0 left-0 w-0.5 bg-lightest-navy transition-all duration-300`}
               style={{
@@ -68,7 +67,7 @@ function Experiences() {
                     : "opacity-0 h-0 overflow-hidden"
                 }`}
               >
-                <h3 className="text-xxl font-calibre font-semibold">
+                <h3 className="sm:text-xxl text-xl font-calibre font-semibold">
                   {job.title} <span className="text-green">@</span>
                   <a href={job.url} className="link-tab">
                     {job.company}

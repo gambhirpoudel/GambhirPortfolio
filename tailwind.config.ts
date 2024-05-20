@@ -38,6 +38,7 @@ const config: Config = {
         'xl': 'var(--fz-xl)',
         'xxl': 'var(--fz-xxl)',
         'heading': 'var(--fz-heading)',
+        'heading2': 'var(--fz-heading2)',
         'xxxl': 'var(--fz-xxxl)',
       },
       borderRadius: {

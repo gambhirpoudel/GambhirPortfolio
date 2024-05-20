@@ -3,14 +3,14 @@ import CustomIconLogo from "./icons/customlogo.jsx";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-10 py-8 w-f text-white">
-      <div className="flex flex-shrink-0 items-center">
-        <a href="https://www.gambhirpoudel.com.np/" className="w-[50px] ml-2 text-lightest-slate hover:text-green">
+      <div className="flex sm:ml-0 ml-[40%] flex-shrink-0 items-center">
+        <a href="https://www.gambhirpoudel.com.np/" className="w-[50px] sm:ml-2 text-lightest-slate hover:text-green">
         <CustomIconLogo/>
         </a>
         
       </div>
       {/* ---------------- Menus -----------------*/}
-      <div className="mx-10 flex gap-6 items-center justify-center">
+      <div className="mx-10 sm:flex hidden gap-6 items-center justify-center">
         <a
           href="#about"
           className="relative font-sfMono text-lightest-slate text-greenn hover:text-green text-xs "

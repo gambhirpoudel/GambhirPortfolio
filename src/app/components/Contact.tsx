@@ -3,17 +3,17 @@ import { email, contactDescription, name } from "../constants";
 
 function Contact() {
   return (
-    <section className="w-[80%] h-[70vh] text-center" id="contacts">
+    <section className="sm:w-[80%] w-[55%] sm:h-[80vh] h-[65vh] text-center" id="contacts">
       <div className="contact">
         <div className="flex items-center justify-center space-x-4 mb-2">
-          <span className="text-green font-sfMono text-md">
+          <span className="text-green font-sfMono sm:text-md text-xs">
             0.4 Whats Next ?
           </span>
         </div>
-        <h2 className="font-calibre font-semibold text-[54.333px] text-lightest-slate whitespace-nowrap">
+        <h2 className="font-calibre font-semibold sm:text-[54.333px]  text-heading2 text-lightest-slate whitespace-nowrap">
           Get In Touch
         </h2>
-        <div className="max-w-[50%] py-10 text-xl font-calibre text-slate mx-auto mb-4">
+        <div className="sm:max-w-[50%] max-w[60%] py-10 sm:text-xl text-lg font-calibre text-slate mx-auto">
           <p>
             {contactDescription}
           </p>
@@ -21,7 +21,7 @@ function Contact() {
         <a href={`mailto:${email}`} className="button w-fit mx-auto">
           Say Hello
         </a>
-        <div className="mt-[18%] py-10 font-sfMono text-xxs hover:text-green text-light-slate">
+        <div className="sm:mt-40 mt-20 sm:mb-2 font-sfMono text-xxs hover:text-green text-light-slate">
           <p>Build by {name}</p>
         </div>
       </div>

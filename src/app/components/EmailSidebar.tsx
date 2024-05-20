@@ -4,14 +4,15 @@ import { email } from '../constants';
 
 const EmailSidebar: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
-
   return (
-    <div className="fixed bottom-0 right-[5px] justify-center flex flex-col items-center space-y-0">
-      <div className="w-px h-[70px] bg-light-slate"></div>
+    <div className="fixed bottom-0 right-[5px] sm:flex hidden justify-center flex-col items-center space-y-0 md:flex">
+      <div 
+        className="w-px h-[50px] bg-light-slate"
+      ></div>
       <div className="block">
         <a
           href={`mailto:${email}`}
-          className="text-xxs font-sfMono text-lightest-slate transition-all duration-300 transform hover:text-green hover:-translate-y-1"
+          className="text-xxs font-sfMono transition-all duration-300 transform hover:text-green hover:-translate-y-1"
           style={{
             display: 'block',
             whiteSpace: 'nowrap',
@@ -19,7 +20,8 @@ const EmailSidebar: React.FC = () => {
             letterSpacing: '1.5px',
             height: '5px',
             marginTop: '-190px',
-            marginLeft: '6px'
+            marginLeft: '6px',
+            color: 'var(--lightest-slate-color)',
           }}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
