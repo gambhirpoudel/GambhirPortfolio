@@ -14,7 +14,7 @@ export default function Home() {
       <div className="flex">
       <Sidebar />
       <EmailSidebar/>
-      <div className="flex-1 lg:ml-[16%] p-5 sm:p-2 justify-center">
+      <div className="flex-1 lg:ml-[16%] p-5  justify-center">
       <Hero/>
       <About/>
       <Experiences/>

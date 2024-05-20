@@ -21,7 +21,7 @@ function About() {
         <div className="w-[350px] h-px bg-lightest-navy"></div>
       </div>
         <div className="flex sm:flex-row flex-col sm:gap-10 gap-5">
-          <div className="text sm:w-2/5 w-[55%] line-height-2 text-slate sm:text-lg text-md">
+          <div className="text sm:w-2/5 w-[50%] line-height-2 text-slate sm:text-lg text-md">
             <div>
               <p className="sm:mb-4 mb-2">{aboutParagraph1}</p>
               <p className="sm:mb-4 mb-2">{aboutParagraph2}</p>
@@ -40,7 +40,7 @@ function About() {
             </ul>
           </div>
           <div className="flex sm:justify-center justify-start items-start mt-[0.5rem]">
-            <div className="w-80 h-80 imgg">
+            <div className="sm:w-80 sm:h-80 w-[300px] h-[300px] imgg">
               <Image
                 src={aboutImage.src}
                 alt="About me"
