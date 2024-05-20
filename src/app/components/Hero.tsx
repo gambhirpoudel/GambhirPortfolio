@@ -17,7 +17,7 @@ const Hero = () => {
               I build things for the web
             </h3>
 
-            <p className="text-md sm:text-xl text-slate sm:w-[540px] w-[320px] font-calibre">
+            <p className="text-md sm:text-xl text-slate sm:w-[540px] w-[315px] font-calibre">
               {heroDescription}
             </p>
           </div>
