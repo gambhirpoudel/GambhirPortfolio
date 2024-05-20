@@ -15,18 +15,16 @@ function Contact() {
         </h2>
         <div className="max-w-[50%] py-10 text-xl font-calibre text-slate mx-auto mb-4">
           <p>
-           {contactDescription}
+            {contactDescription}
           </p>
         </div>
-        <a className="" href={`mailto:${email}`}>
-          <div className="button w-fit mx-auto">Say Hello</div>
+        <a href={`mailto:${email}`} className="button w-fit mx-auto">
+          Say Hello
         </a>
         <div className="mt-[18%] py-10 font-sfMono text-xxs hover:text-green text-light-slate">
-           <p>Build by {name}</p>
+          <p>Build by {name}</p>
         </div>
       </div>
-      
-      
     </section>
   );
 }

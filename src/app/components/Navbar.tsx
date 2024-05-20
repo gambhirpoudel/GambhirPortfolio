@@ -2,9 +2,9 @@ import CustomIconLogo from "./icons/customlogo.jsx";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-8 py-8 w-f text-white">
+    <nav className="flex items-center justify-between px-10 py-8 w-f text-white">
       <div className="flex flex-shrink-0 items-center">
-        <a href="https://www.gambhirpoudel.com.np/" className="w-[50px] text-lightest-slate hover:text-green">
+        <a href="https://www.gambhirpoudel.com.np/" className="w-[50px] ml-2 text-lightest-slate hover:text-green">
         <CustomIconLogo/>
         </a>
         

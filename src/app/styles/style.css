@@ -38,12 +38,13 @@ section {
   text-decoration: none;
   padding: 1.25rem 1.75rem;
   transition: var(--transition);
+  display: inline-block;
 
   &:hover,
   &:focus-visible {
     outline: none;
     box-shadow: 4px 4px 0 0 var(--green);
-    transform: translateY(-5px); /* Move button up by 5 pixels */
+    transform: translateY(-5px);
   }
   &:after {
     display: none !important;
