@@ -52,7 +52,7 @@ function Work() {
                   </div>
                 </div>
                 <div className="pt-5 font-calibre text-xxl text-lightest-slate mt-2">
-                  <p className="font-bold hover:text-green">{project.title}</p>
+                  <p className="font-bold project-title">{project.title}</p>
                 </div>
                 <div
                   className="text-slate text-[17px] font-calibre overflow-hidden"

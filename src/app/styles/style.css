@@ -277,3 +277,6 @@ a.relative.font-sfMono.text-light-slate.text-xs:hover {
     transition: var(--transition);
     overflow: auto;
 }
+.project-inner:hover .project-title {
+  color: var(--green);
+}

@@ -4,9 +4,8 @@ export const skills = [
   "Flutter",
   "Google Cloud",
   "React",
-  "Typescript",
   "Node.js",
-  "WordPress",
+  "Figma",
 ];
 export const heroDescription = "  Dedicated BCA student passionate about computer science andtechnology, excelling in academics with strong problem-solving skills. Effective team player with up-to-date tech knowledge, aspiring to specialize in software engineering or data science. Committed to excellence and eager to contribute to the tech industry's future."
 export const aboutParagraph1 = "Hello! My name is Gambhir,currently pursuing BCA. My journey in the digital realm began when I received my first computer in grade 8. It marked the inception of my exploration into various tools, including HTML, Excel, and MS-Word."
@@ -31,8 +30,8 @@ export const experiencesData = [
   {
     company: "Comming Soon",
     title: "Comming Soon",
-    location: "Hetauda",
-    range: "Dec 2023 - Present",
+    location: "Comming Soon",
+    range: "Comming Soon",
     description: [
       "<p>Comming Soon.</p>",
     ],
@@ -53,21 +52,21 @@ export const projects = [
     description: 'NepFlix is an engaging entertainment application built using Flutter, offering a delightful experience for users to explore and discover a diverse collection of movies and TV shows. With an intuitive interface and powerful features, NepFlix brings the world of entertainment right to your fingertips.',
     githubLink: 'https://github.com/gambhirpoudel/Nepflix',
     externalLink:'',
-    tools: ['Flutter', 'Dart', ''],
+    tools: ['Flutter', 'Dart', 'TMDB'],
   },
   {
     title: 'Flutter Tasks Tracker',
     description: 'Flutter Tasks Tracker is a simple Flutter app that allows users to manage tasks by adding, editing, and deleting them.',
     githubLink: 'https://github.com/gambhirpoudel/Flutter-Tasks-Tracker',
     externalLink: '',
-    tools: ['Flutter', 'Dart', ''],
+    tools: ['Flutter', 'Dart', 'Sql'],
   },
   {
     title: 'Mediserv',
     description: 'MediServ, a Hackathon project developed by a team of four, created a UI/UX prototype in Figma. The tool aids users in locating required medicines and provides information on their availability. If found, it directs users to nearby medical care centers. Simplifying healthcare access, it bridges the gap between medicine availability and user needs.',
     githubLink: '',
     externalLink: 'https://www.figma.com/proto/CsNZevREH3vFfB3oPn8pS0/MEDISERV?node-id=777-543&starting-point-node-id=777%3A543',
-    tools: ['Figma', '', ''],
+    tools: ['Figma', 'Canva', ''],
   },
   
 ];
