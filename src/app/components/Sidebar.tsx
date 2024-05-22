@@ -4,7 +4,6 @@ import IconGitHub from './icons/github.jsx';
 import IconInstagram from './icons/instagram.jsx';
 import IconLinkedin from './icons/linkedin.jsx';
 import IconTwitter from './icons/twitter.jsx';
-import IconMenu from './icons/menu.jsx';
 
 const Sidebar: React.FC = () => {
 
@@ -21,9 +20,6 @@ const Sidebar: React.FC = () => {
       </a>
       <a href="https://www.linkedin.com/in/gambhirpoudel/" target="_blank" rel="noopener noreferrer" className="h-5 w-5 hover:text-green transition-all duration-300 transform hover:-translate-y-1">
         <IconLinkedin />
-      </a>
-      <a href="https://www.linkedin.com/in/gambhirpoudel/" target="_blank" rel="noopener noreferrer" className="h-5 w-5 hover:text-green transition-all duration-300 transform hover:-translate-y-1">
-        <IconMenu  />
       </a>
       <div className="w-0.5 h-20 bg-slate"></div>
     </div>
