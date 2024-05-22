@@ -9,10 +9,10 @@ const EmailSidebar: React.FC = () => {
       <div 
         className="w-px h-[50px] bg-light-slate"
       ></div>
-      <div className="block">
+      <div className="block hover:text-green">
         <a
           href={`mailto:${email}`}
-          className="text-xxs font-sfMono transition-all duration-300 transform hover:text-green hover:-translate-y-1"
+          className="text-xxs font-sfMono transition-all duration-300 transform  hover:-translate-y-1"
           style={{
             display: 'block',
             whiteSpace: 'nowrap',
