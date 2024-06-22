@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full ">
           <div className="items-center lg:items-start">
-            <p className="text-green text-xs sm:text-md font-sfMono">
+            <p className="text-green text-md font-sfMono">
               Hi, my name is
             </p>
             <h2 className="text-lightest-slate sm:text-xxxl text-heading font-calibre font-semibold">
