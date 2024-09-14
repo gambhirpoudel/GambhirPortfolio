@@ -9,7 +9,7 @@ const Sidebar: React.FC = () => {
 
   return (
     <div className="hidden fixed bottom-0 left-8 ml-5 justify-center sm:flex flex-col items-center space-y-6">
-      <a href="https://www.instagram.com/thegambhirpoudel/" target="_blank" rel="noopener noreferrer" className="h-5 w-5 hover:text-green transition-all duration-300 transform hover:-translate-y-1">
+      <a href="https://www.instagram.com/supremeleader.io/" target="_blank" rel="noopener noreferrer" className="h-5 w-5 hover:text-green transition-all duration-300 transform hover:-translate-y-1">
         <IconInstagram />
       </a>
       <a href="https://github.com/gambhirpoudel" target="_blank" rel="noopener noreferrer" className="h-5 w-5 hover:text-green transition-all duration-300 transform hover:-translate-y-1">

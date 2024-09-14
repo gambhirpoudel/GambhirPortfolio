@@ -67,7 +67,13 @@ export const projects = [
     githubLink: '',
     externalLink: 'https://www.figma.com/proto/CsNZevREH3vFfB3oPn8pS0/MEDISERV?node-id=777-543&starting-point-node-id=777%3A543',
     tools: ['Figma', 'Canva', ''],
-  },
+  },{
+    title: 'Streamly',
+    description: 'Streamly, your premier ad-free streaming platform for movies and TV series! Streamly offers a seamless and enjoyable viewing experience, allowing you to watch your favorite content without interruptions.',
+    githubLink: 'https://github.com/gambhirpoudel/Streamly',
+    externalLink: 'https://gambhirpoudel.github.io/Streamly/',
+    tools: ['Next.js', 'TMDB', ''],
+  }, 
   
 ];
 
