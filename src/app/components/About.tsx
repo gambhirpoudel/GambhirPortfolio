@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "@/app/assets/about.jpg";
+import aboutImage from "@/app/assets/about.webp";
 import Image from "next/image";
 import {
   aboutParagraph1,
