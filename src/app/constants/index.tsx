@@ -71,7 +71,7 @@ export const projects = [
     title: 'Streamly',
     description: 'Streamly, your premier ad-free streaming platform for movies and TV series! Streamly offers a seamless and enjoyable viewing experience, allowing you to watch your favorite content without interruptions.',
     githubLink: 'https://github.com/gambhirpoudel/Streamly',
-    externalLink: 'https://gambhirpoudel.github.io/Streamly/',
+    externalLink: 'https://streamly-zeta.vercel.app/',
     tools: ['Next.js', 'TMDB', ''],
   }, 
   
