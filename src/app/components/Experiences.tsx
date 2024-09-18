@@ -8,7 +8,7 @@ function Experiences() {
   const buttonHoverHeight = buttonHeight + 8;
 
   return (
-    <section className="sm:ml-40 ml-0 sm:py-20 py-10 text-lightest-slate lg:h-[80vh] h-screen" id="experiences">
+    <section className="sm:ml-40 ml-0 sm:py-20 text-lightest-slate lg:h-[80vh]" id="experiences">
       <div className="flex items-center space-x-4 mb-10">
         <span className="text-green font-sfMono text-lg ">02.</span>
         <h2 className="font-calibre font-semibold text-heading  text-lightest-slate whitespace-nowrap">
