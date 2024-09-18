@@ -1,6 +1,5 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import EmailSidebar from "./components/EmailSidebar";
 import Experiences from "./components/Experiences";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -13,7 +12,6 @@ export default function Home() {
       <Navbar />
       <div className="flex">
       <Sidebar />
-      <EmailSidebar/>
       <div className="flex-1 lg:ml-[16%] p-5  justify-center">
       <Hero/>
       <About/>

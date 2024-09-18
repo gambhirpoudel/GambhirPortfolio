@@ -76,7 +76,7 @@ function Experiences() {
                 <p className="text-light-slate font-sfMono text-xs mb-4">
                   {job.range}
                 </p>
-                <ul className="font-calibre w-1/2 text-lg">
+                <ul className="font-calibre w-1/2 sm:text-lg text-sm">
                   {job.description.map((paragraph, i) => (
                     <li key={i} className="li text-slate" dangerouslySetInnerHTML={{ __html: paragraph }} />
                   ))}

@@ -3,7 +3,7 @@ import { email, contactDescription, name } from "../constants";
 
 function Contact() {
   return (
-    <section className="sm:w-[80%] w-[55%] sm:h-[80vh] h-[65vh] text-center" id="contacts">
+    <section className="sm:w-[80%] w-[55%]  text-center" id="contacts">
       <div className="contact">
         <div className="flex items-center justify-center space-x-2 mb-2">
           <span className="text-green font-sfMono  text-xs">

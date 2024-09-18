@@ -7,7 +7,7 @@ import { projects } from "../constants";
 function Work() {
   return (
     <section
-      className="w-[50%] sm:w-[80%] sm:mt-0 mt-10  lg:w-[80%] ml-2 sm:ml-10 lg:ml-20 py-10 sm:py-20"
+      className="w-[50%] sm:w-[80%] sm:mt-0  lg:w-[80%] ml-2 sm:ml-10 lg:ml-20 py-10 sm:py-20"
       id="works"
     >
       <div className="flex items-center space-x-4 mb-10">
