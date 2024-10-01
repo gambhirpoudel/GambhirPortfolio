@@ -41,12 +41,26 @@ export const experiencesData = [
 ];
 export const projects = [
   {
+    title: 'Streamly',
+    description: 'Streamly, your premier ad-free streaming platform for movies and TV series! Streamly offers a seamless and enjoyable viewing experience, allowing you to watch your favorite content without interruptions.',
+    githubLink: 'https://github.com/gambhirpoudel/Streamly',
+    externalLink: 'https://streamly-zeta.vercel.app/',
+    tools: ['Next.js', 'TMDB', ''],
+  }, 
+  {
     title: 'MatriNepal',
     description: 'MatriNepal stands as a comprehensive matrimony site meticulously crafted by Gambhir Poudel, serving as an exemplary project for a college endeavor. This platform boasts a myriad of features designed to streamline the matrimonial process, offering users a seamless and efficient experience.',
     githubLink: 'https://github.com/gambhirpoudel/MatriNepal',
     externalLink: 'http://matrinepal.rf.gd/',
     tools: ['PHP', 'CSS', 'HTML'],
   },
+  {
+    title: 'LMS',
+    description: 'The Library Management System, developed using PHP and MySQL Workbench, provides a comprehensive platform for managing library resources and enhancing user engagement',
+    githubLink: 'https://github.com/gambhirpoudel/LMS',
+    externalLink: '',
+    tools: ['PHP', 'MySQL Workbench', 'CSS'],
+  }, 
   {
     title: 'Nepflix',
     description: 'NepFlix is an engaging entertainment application built using Flutter, offering a delightful experience for users to explore and discover a diverse collection of movies and TV shows. With an intuitive interface and powerful features, NepFlix brings the world of entertainment right to your fingertips.',
@@ -67,13 +81,7 @@ export const projects = [
     githubLink: '',
     externalLink: 'https://www.figma.com/proto/CsNZevREH3vFfB3oPn8pS0/MEDISERV?node-id=777-543&starting-point-node-id=777%3A543',
     tools: ['Figma', 'Canva', ''],
-  },{
-    title: 'Streamly',
-    description: 'Streamly, your premier ad-free streaming platform for movies and TV series! Streamly offers a seamless and enjoyable viewing experience, allowing you to watch your favorite content without interruptions.',
-    githubLink: 'https://github.com/gambhirpoudel/Streamly',
-    externalLink: 'https://streamly-zeta.vercel.app/',
-    tools: ['Next.js', 'TMDB', ''],
-  }, 
+  },
   
 ];
 
