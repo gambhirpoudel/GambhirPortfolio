@@ -2,10 +2,12 @@ export const email = "gambhir.poudel@gmail.com"
 export const name = "Gambhir Poudel"
 export const skills = [
   "Flutter",
-  "Google Cloud",
-  "React",
+  "Google Console",
+  "Firebase",
+  "React JS",
   "Node.js",
   "Figma",
+  "Android",
 ];
 export const heroDescription = "  Dedicated BCA student passionate about computer science andtechnology, excelling in academics with strong problem-solving skills. Effective team player with up-to-date tech knowledge, aspiring to specialize in software engineering or data science. Committed to excellence and eager to contribute to the tech industry's future."
 export const aboutParagraph1 = "Hello! My name is Gambhir,currently pursuing BCA. My journey in the digital realm began when I received my first computer in grade 8. It marked the inception of my exploration into various tools, including HTML, Excel, and MS-Word."
